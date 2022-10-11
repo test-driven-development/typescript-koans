@@ -1,1 +1,2 @@
-# typescript kata
+# typescript koans
+                                                                                               t 
