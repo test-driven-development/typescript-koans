@@ -5,8 +5,9 @@
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
+    "tdd": "yarn typecheck && yarn test",
     "test": "vitest",
-    "typecheck": "tsc -b &&",
+    "typecheck": "tsc -b",
     "validate": "run-p \"test -- --run\" lint typecheck"
   },
   "eslintIgnore": [
